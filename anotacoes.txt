@@ -52,4 +52,4 @@ Classe: como se fosse um molde
         - mover()
 
 Objeto: 
-
+$ford = new Carro();
