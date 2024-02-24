@@ -1,0 +1,55 @@
+php.net
+
+downloads (windows)
+zip
+
+criar uma pasta no disco c chamado php
+colar todos os arquivos do zip
+
+dentro da pasta renomear o arquivo php-ini-development para php.ini
+
+dizer pro servidor onde o php esta instalado
+variaveis de ambiente
+
+ir no path e definir uma nova variavel como C:\php
+
+php -v -> mostra a versão instalada
+
+php -S localhost:80 -> cria o servidor
+
+se voce criar um servidor em uma pasta especifica
+da pra voce criar um arquivo php
+e acessar pela url
+localhost:8081/nome.php
+
+php -h -> da todos os atalhos disponiveis
+
+var_dump -> comando que devolve todas as informações da requisição feita
+devolve arrays, strings e variveis (mostra a estrutura do dado)
+
+
+- programação orientada a objetos
+
+ordem dos fatos:
+- programação sequencial
+- programação funcional
+- orientação a objetos
+
+Classe: como se fosse um molde
+    - Possui propriedades
+    - Faz métodos (diz respeito a ação)
+
+    Exemplo: Carro
+
+    Propriedades:
+        - Parado
+        - Portas
+        - Ligado
+
+    Métodos:
+        - ligar()
+        - abrir_portas()
+        - mover()
+
+Objeto: 
+
